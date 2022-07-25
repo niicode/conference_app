@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #d3d3d3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.title {
+  color: #ec5242;
+}
+
+.title h2 {
+  font-weight: 300;
+}
+
+.menu-icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu li {
+  margin-bottom: 1rem;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 0.5;
+}
+
+.mobile-home {
+  display: block;
+  width: 100%;
+  height: 6rem;
+}
+
+.heading {
+  /* margin-bottom: 4rem; */
+  padding: 2rem;
+  background-image: url("../images/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(236, 236, 236, 0.8);
+}
+
+.heading h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ec5242;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  border: 0.3rem solid #fff;
+}
+
+.date-month {
+  font-size: 2.6rem;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.main-program {
+  text-align: center;
+  background-color: #272a31;
+  padding: 2rem;
+  width: 100%;
+}
+
+.main-program h2 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.line-break {
+  width: 45px;
+  height: 0.3rem;
+  background-color: #ec5242;
+  margin-bottom: 1rem;
+  margin: auto;
+}
+
+.program-title {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.content-card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #373a40;
+}
+
+.content-card svg {
+  color: aliceblue;
+}
+
+.content-card h4 {
+  margin-left: 15px;
+  width: 33.33%;
+  text-align: start;
+  color: #ec5242;
+}
+
+.content-card p {
+  color: #fff;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  height: 6rem;
+  background-color: #ec5242;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border: 0;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+em {
+  color: #ec5242;
+}
+
+.btn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 6rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  border: 1px solid #c0c0c0;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.arrow {
+  color: #ec5242;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2px;
+}
+
+.speakers {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+}
+
+.speakers-title {
+  padding: 1.5rem;
+}
+
+.speaker-list {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.speaker-card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.speaker-img {
+  width: 20%;
+  height: 100%;
+  text-align: start;
+  margin-left: 19px;
+  margin-top: 11px;
+}
+
+.speaker-img img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(-30px -10px 4px #c0c0c0);
+}
+
+.speaker-details {
+  width: 80%;
+  margin-left: 1.5rem;
+  text-align: start;
+}
+
+.about {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 2rem;
+  width: 100%;
+}
+
+.about-heading {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.about-heading h4 {
+  color: #ec5242;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.about-heading h2 {
+  color: #ec5242;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.about-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
+.about-logo {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.about-logo--title {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.about-logo--content {
+  color: #b1b1b1;
+  margin-bottom: 3rem;
+}
+
+.about-logo--card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 2px solid #c0c0c0;
+  margin-bottom: 3rem;
+}
+
+.about-logo--card h4 {
+  font-size: 3rem;
+  margin: auto;
+}
+
+.past-confs {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+}
+
+.past-confs--title {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.past-confs--content {
+  color: #b1b1b1;
+  margin-bottom: 3rem;
+}
+
+.past-confs-cards {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.past-confs--card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+  border: 2px solid rgba(219, 110, 90, 0.8);
+  color: #fff;
+  margin-bottom: 3rem;
+  height: 250px;
+  background-image: url(../images/conf-1.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(219, 110, 90, 0.8);
+}
+
+.past-confs--card-1 h3 {
+  font-size: 4.5rem;
+}
+
+.past-confs--card-1 p {
+  font-size: 2rem;
+}
+
+.past-confs--card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+  border: 2px solid rgba(219, 110, 90, 0.8);
+  color: #fff;
+  margin-bottom: 3rem;
+  height: 250px;
+  background-image: url(../images/conf-2.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(219, 110, 90, 0.8);
+}
+
+.past-confs--card-2 h3 {
+  font-size: 4.5rem;
+}
+
+.past-confs--card-2 p {
+  font-size: 2rem;
+}
