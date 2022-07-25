@@ -399,3 +399,42 @@ em {
 .past-confs--card-2 p {
   font-size: 2rem;
 }
+
+.sponsors {
+  text-align: center;
+  background-color: #272a31;
+  padding: 2rem;
+  width: 100%;
+}
+
+.sponsors-title {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  width: 100%;
+}
+
+.sponsors--list {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 3rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+}
+
+footer h3 {
+  color: #ec5242;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+footer p {
+  color: #b1b1b1;
+  margin-bottom: 3rem;
+}
