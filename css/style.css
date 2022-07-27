@@ -854,7 +854,6 @@ input[type="email"] {
   form input[type="text"],
   input[type="email"] {
     padding-left: 1rem;
-    margin-bottom: 1.25rem;
     border-radius: 0.5rem;
     border: 1px solid #ec5242;
     background-color: #fff;
