@@ -185,10 +185,6 @@ header h3 {
   background-color: #373a40;
 }
 
-.content-card svg {
-  color: aliceblue;
-}
-
 .content-card h4 {
   margin-left: 15px;
   width: 33.33%;
@@ -297,7 +293,7 @@ em {
   background-color: #f7f7f7;
   padding: 2rem;
   width: 100%;
-  background-image: url("../images/devConf.jpeg");
+  background-image: url("../images/devConf.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
