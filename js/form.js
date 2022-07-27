@@ -16,13 +16,13 @@ async function handleSubmit(event) {
         form.style.display = 'none';
         document.querySelector(
           '.modal-form--contents'
-        ).innerHTML = `<h2>Thank you for your interest! Your sit is booked😀</h2>`;
+        ).innerHTML = '<h2>Thank you for your interest! Your sit is booked😀</h2>';
         status.innerHTML = 'Thanks for your submission!';
         form.reset();
       } else {
         response.json().then((data) => {
           if (Object.hasOwn(data, 'errors')) {
-            status.innerHTML = data['errors']
+            status.innerHTML = data.errors
               .map((error) => error.message)
               .join(', ');
           } else {
