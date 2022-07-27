@@ -1,27 +1,27 @@
 const ProgramDetails = [
     {
         title: 'Lecture',
-        description: 'Lecture on the topic of the day. In this session there will be a keynote presentation by the speaker and a brief description of the topic. The session will be followed by a Q&A session where the audience can ask questions.',
+        description: 'Lecture on the topic of the day. In this session there will be a keynote presentation by the speaker and a brief description of the topic.',
         icon: './images/lecture.svg',
     },
     {
         title: 'Workshop',
-        description: 'Workshop on the topic of the day. In this session there will be a brief description of the topic and a workshop session. The workshop session will be chaired by the speaker and other invited guest.',
+        description: 'Workshop on the topic of the day. In this session there will be a brief description of the topic and a workshop session.',
         icon: './images/workshop.svg',
     },
     {
         title: 'Forum',
-        description: 'Forum on the topic of the day. In this session there will be a brief description of the topic and a forum session. The forum session will be chaired by the speaker and other invited guest.',
+        description: 'Forum on the topic of the day. In this session there will be a brief description of the topic and a forum session. There will be lots of fun.',
         icon: './images/forum.svg',
     },
     {
         title: 'CC Ignite',
-        description: 'CC Ignite on the topic of the day. In this session there will be a brief description of the topic and a CC Ignite session. The CC Ignite session will be chaired by the speaker and other invited guest.',
+        description: 'CC Ignite on the topic of the day. In this session there will be a brief description of the topic and a CC Ignite session. We will be having fun.',
         icon: './images/ignite.svg',
     },
     {
         title: 'CC Exhibtion',
-        description: 'CC Exhibtion on the topic of the day. In this session there will be a brief description of the topic and a CC Exhibtion session. The CC Exhibtion session will be chaired by the speaker and other invited guest.',
+        description: 'CC Exhibtion on the topic of the day. In this session there will be a brief description of the topic and a CC Exhibtion session.',
         icon: './images/cc.svg',
     }
 ];

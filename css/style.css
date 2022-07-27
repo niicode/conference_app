@@ -647,7 +647,6 @@ form input[type="text"], input[type="email"] {
   }
 
   .main-program {
-    height: 60rem;
     padding: 6rem;
   }
 
@@ -659,7 +658,7 @@ form input[type="text"], input[type="email"] {
   }
 
   .content-card {
-    height: 30rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
