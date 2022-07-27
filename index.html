@@ -56,13 +56,13 @@
           <li><a class="menu-item" href="index.html">Home</a></li>
           <li><a class="menu-item" href="about.html">About</a></li>
           <li><a class="menu-item" href="#about">Program</a></li>
-          <li><a class="menu-item" href="#contact">Join</a></li>
+          <li><a class="menu-item" id="joi-btn" href="#">Join</a></li>
           <li><a class="menu-item" href="#contact">Sponsor</a></li>
         </ul>
         <ul class="web-menu">
           <li><a class="menu-item" href="about.html">About</a></li>
           <li><a class="menu-item" href="#about">Program</a></li>
-          <li><a class="menu-item" href="#contact">Join</a></li>
+          <li><a class="menu-item" id="join" href="#">Join</a></li>
           <li><a class="menu-item" href="#contact">Sponsor</a></li>
           <li><a class="menu-item" href="#contact">News</a></li>
           <li><a class="conf" href="#contact">DevConf Campaign</a></li>
@@ -100,7 +100,7 @@
           <!-- Cards go here -->
         </div>
         <a class="desktop-see" href="#">SEE THE WHOLE PROGRAM</a>
-        <button class="btn">Join Web Dev Conf 2022</button>
+        <button id="join-btn" class="btn">Join Web Dev Conf 2022</button>
       </section>
       <section class="speakers">
         <div class="speakers-title">
@@ -150,8 +150,52 @@
           </p>
         </div>
       </footer>
+      <!-- join modal -->
+      <div class="modal-form">
+        <div class="modal-form--content">
+          <div class="modal-form--close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x close-modal"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </div>
+          <div class="modal-form--title">
+            <h2>Join DevConf</h2>
+            <div class="line-break"></div>
+          </div>
+          <p class="modal-form--contents">Fill this form to book a sit for this years exicting edition...</p>
+          <div class="modal-form--contents">
+            <form action="https://formspree.io/f/xeqnybvz" id="my-form" method="POST">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="name" required placeholder="Name"/>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" required placeholder="Email" />
+              </div>
+              <button type="submit" class="btn-primary">
+                Submit
+              </button>
+              <p id="form-status"></p>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="./js/menu.js"></script>
     <script src="./js/cards.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/localStorage.js"></script>
   </body>
 </html>
