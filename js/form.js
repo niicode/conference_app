@@ -14,7 +14,7 @@ async function handleSubmit(event) {
     .then((response) => {
       if (response.ok) {
         form.style.display = 'none';
-        document.querySelector('.modal-form--contents').innerHTML = '<h2>Thank you for your interest! Your sit is booked😀</h2>';
+        document.querySelector('.modal-form--contents').innerHTML = '<h2>Thank you for your interest! Your seat is booked😀</h2>';
         status.innerHTML = 'Thanks for your submission!';
         form.reset();
       } else {
