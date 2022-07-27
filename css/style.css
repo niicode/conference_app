@@ -70,6 +70,11 @@ header h3 {
   left: 0;
 }
 
+.socials li a {
+  color: white;
+  text-decoration: none;
+}
+
 .mobile-menu li {
   list-style: none;
   margin-bottom: 20px;
@@ -91,10 +96,6 @@ header h3 {
 
 .web-menu {
   display: none;
-}
-
-.mobile-menu li {
-  margin-bottom: 1rem;
 }
 
 .mobile-home {
@@ -163,8 +164,7 @@ header h3 {
   width: 45px;
   height: 0.3rem;
   background-color: #ec5242;
-  margin-bottom: 1rem;
-  margin: auto;
+  margin: auto auto 1rem auto;
 }
 
 .program-title {
@@ -389,6 +389,12 @@ em {
   margin-bottom: 3rem;
 }
 
+footer h3 {
+  color: #ec5242;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
 .past-confs--card-1 {
   display: flex;
   flex-direction: column;
@@ -473,17 +479,6 @@ footer {
   width: 100%;
 }
 
-footer h3 {
-  color: #ec5242;
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-footer p {
-  color: #b1b1b1;
-  margin-bottom: 3rem;
-}
-
 .socials {
   display: none;
 }
@@ -528,7 +523,6 @@ form {
 form input[type="text"],
 input[type="email"] {
   padding-left: 1rem;
-  margin-bottom: 1.25rem;
   border-radius: 0.5rem;
   border: 1px solid #ec5242;
   background-color: #fff;
@@ -667,6 +661,11 @@ input[type="email"] {
   .content-card h4 {
     margin-left: 0;
     text-align: center;
+  }
+
+  footer p {
+    color: #b1b1b1;
+    margin-bottom: 3rem;
   }
 
   .content-card p {
@@ -813,11 +812,6 @@ input[type="email"] {
     justify-content: end;
     padding: 0.5rem 3rem;
     gap: 4rem;
-  }
-
-  .socials li a {
-    color: white;
-    text-decoration: none;
   }
 
   .modal-form {
